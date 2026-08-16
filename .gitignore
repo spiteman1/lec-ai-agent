@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Dependencies
+.uv/
+
+# SQLite state database (runtime artifact, not source)
+*.db
+*.sqlite
+*.sqlite3
+
+# Log files (runtime artifacts)
+logs/*.jsonl
+
+# Environment variables
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
