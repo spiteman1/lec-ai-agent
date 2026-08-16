@@ -1,6 +1,6 @@
 # Untrusted Warehouse Feed Agent
 
-A autonomous agent that polls structured task definitions from an external warehouse feed, validates their structure against a strict schema, sanitises all string content for injection attacks, and safely executes legitimate tasks while quarantining malicious ones. 
+An autonomous agent that polls structured task definitions from an external warehouse feed, validates their structure against a strict schema, sanitises all string content for injection attacks, and safely executes legitimate tasks while quarantining malicious ones.
 
 ## Table of Contents
 
@@ -27,7 +27,7 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 
 # Clone and install
-git clone https://github.com/<your-username>/lec-ai-agent.git
+git clone https://github.com/spiteman1/lec-ai-agent.git
 cd lec-ai-agent
 uv sync --dev
 
